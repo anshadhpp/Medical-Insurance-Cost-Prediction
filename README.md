@@ -57,3 +57,32 @@ Based on the EDA, `sex`, `region`, and `children` were dropped as weak predictor
 4. Risk-based pricing should weight smoking status and BMI heavily; wellness programs targeting smoking cessation and weight management would likely offer the best ROI in reducing claim costs. Regional pricing adjustments appear unnecessary given the weak regional signal.
 
 ## Project Structure
+
+```
+.
+├── Health_Insurance.ipynb   # Full analysis: EDA, modeling, evaluation
+├── insurance.csv            # Dataset
+├── images/
+│   └── feature_importance.png
+├── requirements.txt
+└── README.md
+```
+
+## Getting Started
+
+```bash
+git clone https://github.com/<your-username>/medical-insurance-cost-prediction.git
+cd medical-insurance-cost-prediction
+pip install -r requirements.txt
+jupyter notebook Health_Insurance.ipynb
+```
+
+## Tech Stack
+
+- Python, pandas, NumPy
+- scikit-learn (RandomForestRegressor, Pipeline, ColumnTransformer)
+- Matplotlib, Seaborn
+
+## Author
+
+Anshad
